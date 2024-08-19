@@ -17,7 +17,7 @@ const Test = () => {
       "TronTronTronNormieTronTronTronNormieTronTronTronNormieTronTronTronNormieTronTronTronNormieTronTronTronNormieTronTronTronTronTron";
     english = english.split("");
 
-    const font_size = 15;
+    const font_size = 12;
     const columns = canvas.width / font_size;
 
     // Initialize drops array
@@ -31,7 +31,7 @@ const Test = () => {
       ctx.current.fillStyle = "rgba(0, 0, 0, 0.05)";
       ctx.current.fillRect(0, 0, canvas.width, canvas.height);
 
-      ctx.current.fillStyle = "#FF3A3A"; // green text
+      ctx.current.fillStyle = "#E50202"; // green text
       ctx.current.font = `${font_size}px arial`;
 
       for (let i = 0; i < drops.current.length; i++) {
