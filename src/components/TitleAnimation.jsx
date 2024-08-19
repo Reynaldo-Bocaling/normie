@@ -23,7 +23,7 @@ const TitleComponent = () => {
   ];
 
   return (
-    <h1 className="text-[3rem] font-medium flexCenter gap-4">
+    <h1 className="text-[3.5rem] font-extrabold flexCenter gap-4 text-blue-500">
       <Typical
         steps={steps}
         loop={1}

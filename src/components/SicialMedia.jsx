@@ -15,7 +15,7 @@ const SicialMedia = () => {
             className="flexCenter gap-3 md:gap-12 "
           >
             <img src={item.img} alt="img" className={item.variant} />
-            <p className="text-[2rem]">{item.title}</p>
+            <p className="text-[1.7rem]">{item.title}</p>
           </a>
         );
       })}

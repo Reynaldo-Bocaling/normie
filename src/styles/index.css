@@ -7,7 +7,7 @@
 * {
     font-family: Handjet, sans-serif;
     /* color: #00a2ff; */
-    color: #f95151;
+    color: #f96751;
     font-weight: 600
 }
 
@@ -46,6 +46,11 @@
         @apply flex flex-col items-center justify-between
     }
 
+}
+
+h1 {
+    -webkit-text-stroke: #ee3400 1px;
+    letter-spacing: 2px;
 }
 
 #hero {
@@ -106,7 +111,7 @@ p {
     height: calc(122px - 2.5rem);
     padding: 1rem;
     border-radius: .25rem;
-    background: #fa1a2c;
+    background: #ee3400;
     box-shadow: inset -5px -5px 10px rgba(0, 0, 0, .3333333333), inset 5px 5px 10px hsla(0, 0%, 100%, .1333333333), 2px 5px 10px #370202;
     transition: all .2s ease
 }
