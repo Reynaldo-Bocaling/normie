@@ -17,7 +17,7 @@ export const socialMedia = [
     variant: "h-[55px] w-[55px]",
   },
   {
-    url: "e",
+    url: "https://t.me/NormieTron",
     img: telegram_img,
     title: "TELEGRAM",
     variant: "h-[45px] w-[45px]",
