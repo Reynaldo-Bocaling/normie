@@ -18,7 +18,10 @@ const App = () => {
           <AnimationComponent />
           <div className=" swap-buy flex flex-col md:flex-row">
             <Button title="SUNSWAP" url="" />
-            <Button title="SUNPUMP" url="" />
+            <Button
+              title="SUNPUMP"
+              url="https://sunpump.meme/token/TPcAkZ8iysU3Yf4rbthgaqEZAukHvvEyKC"
+            />
           </div>
           <p className="text-2xl tracking-wider">
             The Tron people's coin. Reaching out to all normies on Tron with the
@@ -26,7 +29,7 @@ const App = () => {
           </p>
 
           <SicialMedia />
-          <Footer />
+          {/* <Footer /> */}
           <Test />
         </div>
       </section>
