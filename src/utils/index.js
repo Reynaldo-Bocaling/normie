@@ -23,7 +23,7 @@ export const socialMedia = [
     variant: "h-[45px] w-[45px]",
   },
   {
-    url: "",
+    url: "https://x.com/Normie_trx",
     img: x_img,
     title: "X CORP",
     variant: "h-[40px] w-[40px]",
